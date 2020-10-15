@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import { getRepository } from 'typeorm';
 
 import Orphanage from '../models/Orphanage';
-import orphanageView from '../views/orphanages_views';
+import orphanageView from '../views/orphanages_view';
 
 export default {
   async index(request: Request, response: Response) {
